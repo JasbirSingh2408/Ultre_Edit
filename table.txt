@@ -1,0 +1,15 @@
+    <!-- <div class="tabels">
+        <table>
+            <tr>
+                <td><img src="w.png" alt="" class="difficon"><img src="a.png" alt="" class="difficon"><img src="l.png" alt="" class="difficon"></td>
+                <td><img src="uc.png" alt=""></td>
+                <td><img src="last.png" alt=""></td>
+            
+            </tr>
+            <tr>
+                <td><p>You get the Windows, Mac, and Linux <br> versions of UltraEdit and UltraCompare.</p></td>
+                <td>Includes free UltraCompare <br> Pro diff tool.</td>
+                <td>Your personal license <br> can be used on up to 3 different machines.</td>
+            </tr>
+        </table>
+    </div> -->

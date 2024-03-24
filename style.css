@@ -1,0 +1,320 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.head {
+    display: inline;
+    justify-content: flex-end;
+}
+
+.whaticon1 {
+    display: inline;
+    padding-left: 55px;
+    /* width: 20px; */
+}
+
+.imgwhat {
+    width: 50px;
+}
+
+.ulki {
+    color: white;
+    /* padding-left: 150px; */
+    list-style-type: disc;
+}
+
+.next1 {
+    background-color: rgb(249, 249, 249);
+    padding: 4px;
+    /* margin-top: 50px; */
+    /* margin-right: 50px; */
+    /* margin-left: 125px; */
+    border-radius: 20px;
+}
+
+.menu {
+    display: flex;
+
+}
+
+ul li {
+    list-style-type: none;
+    margin: 2px;
+    padding: 10px;
+    font-size: large;
+}
+
+
+.lan {
+    width: 25px;
+}
+
+.path {
+    margin-top: 4px;
+    color: grey;
+    float: left;
+}
+
+.news {
+    margin-top: 68px;
+    text-align: right;
+}
+
+.heading {
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.para {
+    /* display: inline; */
+    margin-top: 50px;
+    align-items: center;
+    font-size: 26px;
+    text-align: center;
+
+}
+
+
+.difficon {
+    width: 32px;
+    float: left;
+    padding-top: 17px;
+    margin-left: 20px;
+}
+
+.box {
+    margin-left: 25px;
+    width: 300px;
+    background-color: rgb(249, 249, 249);
+    /* height: 50px; */
+    border-radius: 5px;
+}
+
+.ult {
+    font-size: 20px;
+    padding-top: 24px;
+    padding-left: 40px;
+}
+
+.button {
+    border-radius: 5px;
+    border: 2px solid rgb(45, 180, 225);
+    margin-left: 32px;
+    width: 215px;
+    background-color: rgb(45, 180, 225);
+    margin-top: 25px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: large;
+    color: white;
+    font-weight: bolder;
+    height: 50px;
+}
+
+.learn {
+    margin-top: 15px;
+}
+
+.what {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 60px;
+
+}
+
+.black {
+    color: white;
+    background-color: black;
+    margin-top: 150px;
+    /* border: 2px solid red; */
+    /* width: 99%; */
+    height: auto;
+}
+
+hr {
+    width: 80vw;
+    /* background-color: rgb(44, 129, 202);
+     */
+    border: 0.1px solid rgb(220, 220, 220);
+
+}
+
+.whatblack {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    /* margin-left: 350px; */
+    margin-top: 100px;
+    /* width: 200vh; */
+}
+
+.pc {
+    width: 315px;
+    /* float: right; */
+    height: 200px;
+}
+
+.hello {
+    display: flex;
+    /* flex-wrap: wrap;*/
+}
+
+.heading2 {
+    margin-bottom: 50px;
+    /* margin-right: 50px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+.para1 {
+    font-size: 20px;
+}
+
+.three {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 160px;
+}
+
+.fig {
+    width: 285px;
+}
+
+.redf {
+    width: 150px;
+}
+
+.reds {
+    width: 80px;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+
+
+@media only screen and (width<1220px) {
+
+    .differentcontent {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .three{
+        margin-left:10px ;
+    }
+
+    .next1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hello {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+@media only screen and (width>590px) {
+    .head {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .whaticon {
+        display: flex;
+
+        justify-content: center;
+    }
+
+    .next1 {
+        width: 150vh;
+        margin-left: 150px;
+        display: flex;
+    }
+
+    .feature3 {
+        display: flex;
+    }
+
+    .heading3 {
+        text-align: center;
+        padding: 20px;
+        font-size: 45px;
+    }
+
+    .other {
+        margin-top: -45px;
+        color: white;
+        background-color: rgb(38, 37, 37);
+    }
+
+    .feature {
+        -left: 50px;
+    }
+
+    .iconue {
+
+        float: left;
+    }
+
+    .boxes {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.redfg {
+    margin-top: 50px;
+}
+
+.jhjh {
+    width: 450px;
+}
+
+.differentcontent {
+    padding: 50px;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+@media only screen and (width<550px) {
+    .pc {
+        width: 250px;
+        /* margin-right: 50px; */
+        height: 200px;
+    }
+    .jhjh
+    {
+        width: 250px;
+        /* margin-right: 50px; */
+        height: 200px;
+    }
+
+}
+.feature3 {
+    /* display: flex; */
+}
+
+.heading3 {
+    text-align: center;
+    padding: 20px;
+    font-size: 45px;
+}
+
+.other {
+    margin-top: -45px;
+    color: white;
+    background-color: rgb(38, 37, 37);
+}
+
+.feature {
+    /* -left: 50px; */
+}
